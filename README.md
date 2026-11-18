@@ -42,7 +42,7 @@ Además (prueba aparte): producto punto de 2 M de números: Python 50,9 ms · Ru
 github.com/huggingface/tokenizers · github.com/pola-rs/polars · github.com/astral-sh/ruff · github.com/astral-sh/uv · github.com/PyO3/pyo3
 
 ## Créditos
-- Python™ es una marca de la Python Software Foundation; el logo de Rust pertenece a la Rust Foundation (licencia CC BY 4.0). Este proyecto no tiene patrocinio ni respaldo oficial de ninguna de las dos.
+- Python y Rust son proyectos de código abierto (Python Software Foundation y Rust Foundation). Este proyecto no usa sus logos ni tiene patrocinio ni respaldo oficial.
 - Sobre el tuit de Elon Musk de abril de 2023 («Rust», en respuesta a «AGI will be built with Python»): visto en el registro público del tuit mediante un buscador; no se pudo abrir el original.
 - Cifras ajenas (Stack Overflow 2025, TIOBE nov-2026, GitHub Octoverse 2026, estrellas de GitHub) tomadas de sus páginas el 18-nov-2026.
 - Licencia MIT para el código de este repositorio.
