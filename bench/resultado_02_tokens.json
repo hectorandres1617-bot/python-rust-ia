@@ -1,0 +1,19 @@
+{
+ "palabras": 3000003,
+ "mb": 20.616121,
+ "coincidencia_pct": 100.0,
+ "python_s": 2.9095855719642714,
+ "rust_1_por_llamada_s": 5.924579473969061,
+ "rust_lote_1hilo_s": 7.195317185018212,
+ "rust_lote_todos_s": 1.1522065130411647,
+ "rust_rapido_1hilo_s": 5.705072833981831,
+ "rust_rapido_todos_s": 1.1269033490098082,
+ "tokens_py": 5687708,
+ "tokens_rust": 5687708,
+ "maquina": {
+  "cpu": "AMD Ryzen Threadripper 7960X 24-Cores",
+  "hilos": 48,
+  "python": "3.12.3",
+  "so": "Linux-6.8.0-149-generic-x86_64-with-glibc2.39"
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "leer CSV": {
+  "pandas_s": 0.5941025590291247,
+  "polars_s": 0.13449551904341206,
+  "veces": 4.417266562147413
+ },
+ "agrupar y promediar (1000 grupos)": {
+  "pandas_s": 0.09047494403785095,
+  "polars_s": 0.061811338004190475,
+  "veces": 1.4637273186307216
+ },
+ "filtrar + ordenar": {
+  "pandas_s": 0.15802337898639962,
+  "polars_s": 0.0412878529750742,
+  "veces": 3.8273576269950285
+ },
+ "agrupar por texto (5000 clientes)": {
+  "pandas_s": 0.5489317619940266,
+  "polars_s": 0.1407771110534668,
+  "veces": 3.899296965865024
+ },
+ "_meta": {
+  "filas": 10000000,
+  "csv_mb": 555.687771,
+  "pandas": "3.1.1",
+  "polars": "2.1.0",
+  "maquina": {
+   "cpu": "AMD Ryzen Threadripper 7960X 24-Cores",
+   "hilos": 48,
+   "python": "3.12.3",
+   "so": "Linux-6.8.0-149-generic-x86_64-with-glibc2.39"
+  }
+ }
+}

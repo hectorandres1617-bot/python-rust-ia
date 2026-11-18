@@ -1,0 +1,5 @@
+target/
+venv/
+datos/
+__pycache__/
+*.so

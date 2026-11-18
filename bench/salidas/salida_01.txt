@@ -1,0 +1,4 @@
+$ python bench_01_primos.py
+PRUEBA 1 · contar primos < 200,000
+  Python puro     242.8 ms
+  Rust (PyO3)       9.0 ms  -> 27x más rápido

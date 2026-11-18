@@ -1,0 +1,7 @@
+$ ./bench_04_herramientas.sh
+PRUEBA 4 · herramientas
+  Código a revisar: 4300 archivos, 1916903 líneas
+  1 núcleo   · flake8 92.01 s · ruff 0.929 s -> ruff 99x
+  48 núcleos · flake8  4.12 s · ruff 0.098 s -> ruff 42x
+  Instalar numpy pandas polars requests (caché tibia)
+             pip 5.90 s · uv 0.04 s -> uv 147x

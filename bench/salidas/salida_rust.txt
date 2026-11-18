@@ -1,0 +1,16 @@
+// src/lib.rs  (Rust, con PyO3)
+use pyo3::prelude::*;
+
+#[pyfunction]
+fn contar_primos(n: u64) -> u64 {
+    let mut c = 0;
+    for i in 2..n {
+        let mut es = true; let mut d = 2;
+        while d * d <= i {
+            if i % d == 0 { es = false; break; }
+            d += 1;
+        }
+        if es { c += 1; }
+    }
+    c
+}

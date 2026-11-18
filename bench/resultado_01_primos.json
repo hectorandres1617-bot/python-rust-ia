@@ -1,0 +1,13 @@
+{
+ "n": 200000,
+ "resultado": 17984,
+ "python_ms": 242.84335999982432,
+ "rust_ms": 9.00914496742189,
+ "veces": 26.955206168618,
+ "maquina": {
+  "cpu": "AMD Ryzen Threadripper 7960X 24-Cores",
+  "hilos": 48,
+  "python": "3.12.3",
+  "so": "Linux-6.8.0-149-generic-x86_64-with-glibc2.39"
+ }
+}

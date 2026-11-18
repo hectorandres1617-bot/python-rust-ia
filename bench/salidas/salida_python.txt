@@ -1,0 +1,5 @@
+# desde Python:
+$ maturin develop --release
+>>> import rapido
+>>> rapido.contar_primos(200_000)
+17984

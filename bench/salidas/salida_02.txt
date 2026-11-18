@@ -1,0 +1,9 @@
+$ python bench_02_tokens.py
+Corpus: 343,606 líneas, 3,000,003 palabras, 20.6 MB
+Control: 100.0% de 20,000 líneas dan exactamente
+         el mismo número de tokens en ambos
+PRUEBA 2 · tokenizar 3,000,003 palabras (20.6 MB)
+  Python puro (1 hilo)         2.91 s    7.09 MB/s
+  Rust, en lote, 1 hilo        7.20 s    2.87 MB/s
+  Rust modo rápido, 1 hilo     5.71 s    3.61 MB/s
+  Rust modo rápido, 48 hilos   1.13 s   18.29 MB/s
